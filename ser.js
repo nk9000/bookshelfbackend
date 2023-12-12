@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Replace with your MongoDB Atlas connection string
+
 const mongoUri = 'mongodb+srv://nk:gssZwNyabkmgFKaQ@cluster0.qunq6jz.mongodb.net/';
 
 mongoose.connect(mongoUri, {
